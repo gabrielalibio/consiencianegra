@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: campus;
+    src: url(fontes/campus/CAMPUS\ PERSONAL\ USE.ttf);
+}
+
+@font-face {
+    font-family: university;
+    src: url(fontes/hfuniversity/HFUniversity.ttf);
+}
+
+body{
+    text-align: center;
+    font-size: 30px;
+    background-color: #d2765d;
+    color: #2e2424;
+    font-family: university;
+}
+
+h1{
+    font-family: campus;
+    padding: auto;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+p{
+    margin: 35px;
+    padding: auto;
+}
+
+footer{
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
